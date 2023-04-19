@@ -1,0 +1,16 @@
+#list_body 
+{
+    background-color: #5E9CFE;
+    width: 600px;
+    height: 800px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin: auto;
+}
+
+#button_add 
+{
+    width: 200px;
+    height: 50px;
+    margin: auto;
+}
