@@ -1,0 +1,22 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Lista de afazeres CRUD",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaFonPessoa/Crude-To-Do-List.git"
+  },
+  "author": "Rafael Fonseca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafaFonPessoa/Crude-To-Do-List/issues"
+  },
+  "homepage": "https://github.com/RafaFonPessoa/Crude-To-Do-List#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
