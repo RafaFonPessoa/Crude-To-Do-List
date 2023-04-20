@@ -1,16 +1,31 @@
 #list_body 
 {
-    background-color: #5E9CFE;
+    background-color: #8849FF;
     width: 600px;
-    height: 800px;
+    height: 600px;
     border-radius: 5%;
     margin-top: 20px;
     margin: auto;
+    box-shadow: 5px 5px 20px black;;
+}
+h1 {
+    text-shadow: 5px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: cursive;
 }
 
-#button_add 
-{
+p {
+    text-shadow: 5px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#button_add {
     width: 200px;
     height: 50px;
     margin: auto;
+    box-shadow: 5px 5px 5px black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn-custom {
+    color: #fff !important;
 }
