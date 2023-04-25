@@ -6,17 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RafaFonPessoa/Crude-To-Do-List.git"
-  },
-  "author": "Rafael Fonseca",
+  "author": "Rafael Fonseca Pessoa",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RafaFonPessoa/Crude-To-Do-List/issues"
-  },
-  "homepage": "https://github.com/RafaFonPessoa/Crude-To-Do-List#readme",
   "dependencies": {
-    "mysql": "^2.18.1"
+    "express": "^4.18.2"
   }
 }

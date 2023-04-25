@@ -1,16 +1,13 @@
-const mysql = require('mysql');
+const express = require('express');
+const app = express();
+const port = 3000; //porta padrão
 
-const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'root',
-    database: 'To_do_List',
-});
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
-connection.connect((err) => {
-    if(err) {
-        console.error('Erro ao conectar' + err.stack);
-        return;
-    }
-    console.log('Conecção bem sucedida!');
-});
+const router = express.Router();
+router.get('/', (req, res) => res.json({ message: 'Funcionando!' }));
+app.use('/', router);
+
+app.listen(port);
+console.log('API funcionando!');    
